@@ -5,7 +5,7 @@ dist: xenial
 dotnet: 5.0.102
 branches:
   only:
-    - master
+    - main
 #    - develop
 script:
   - dotnet build
